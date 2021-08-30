@@ -1,0 +1,36 @@
+/* селектор тега */
+header {
+    /* свойства: значения */
+    background-color: rgb(138, 43, 226);
+}
+
+div {
+    background-color: darkgrey;
+    border: 2px solid rgba(red, green, blue, alpha);
+}
+
+footer {
+    background-color: coral;
+}
+
+/* селектор группы тегов */
+div, footer {
+    /* свойство внешних отступов */
+    margin: 10px;
+    /* свойство внутренних отступов */
+    padding: 0px;
+    /* border: 2px solid rgb(200, 105, 50) */
+}
+/* селектор класса */
+.БЛОК_1{
+    background-color: salmon;
+}
+/* селектор дочернего элемента */
+.БЛОК_2 p {
+    height: 200px;
+}
+/* селектор по индентификатору */
+#p2 {
+    height: 60px;
+    color: rgb(196, 34, 34);
+}
